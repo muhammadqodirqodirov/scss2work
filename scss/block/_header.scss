@@ -1,11 +1,14 @@
-
+#coff{
+    padding-top: 44px;
+}
 .coff__container{
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 .coff__logo{
-    max-width: 236px;;
+    max-width: 236px;
+    flex-shrink: 0 ;
 }
 .coff__list{
     display: flex;
@@ -19,5 +22,27 @@
     line-height: 15px;
     letter-spacing: 1px;
     text-transform: uppercase;
-    color: #83888F;    
+    color: #83888F; 
+    &:active{
+        color: #fff;
+        transition: .1s;
+    }   
+}
+.coff__btn{
+    width: 16px;
+    height: 15px;
+    background-repeat: no-repeat;
+    background-image: url(../../img/mobile.svg);
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    display: none;
+}
+@media screen and (max-width:700px) {
+    .coff__btn{
+        display: inline-block;
+    }
+    .coff__item{
+        display: none;
+    }
 }
