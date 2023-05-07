@@ -1,0 +1,23 @@
+
+.coff__container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.coff__logo{
+    max-width: 236px;;
+}
+.coff__list{
+    display: flex;
+}
+.coff__item+.coff__item{
+    margin-left: 32px;
+}
+.coff__item{
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #83888F;    
+}
