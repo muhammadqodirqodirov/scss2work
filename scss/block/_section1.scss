@@ -1,0 +1,74 @@
+#us{
+    padding-top: 44px;
+}
+.us__img-block{ 
+    padding: 137px 0;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-image: url(../../img/coffees1.png);
+}
+.us__content{
+    max-width: 505px;
+    padding-left: 85px;
+}
+.us__title{
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    color: #FEFCF7;
+    font-family: $font2;
+    margin-bottom: 24px;
+}
+.us__text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FEFCF7;
+}
+@media screen and (max-width:730px) {
+    .us__img-block{
+        max-width: 100%;
+        width: 100%;
+        background-image: url(../../img/tabletsec1.png);
+    }
+    .us__content{
+        padding-left: 58px;
+    }
+    .us__text{
+        max-width: 398px;
+        font-size: 15px;
+        line-height: 25px;
+    }
+}
+@media screen and (max-width:505px) {
+    .us__img-block{
+        padding: 111px 24px 87px 24px;
+    }
+    .us__content{
+        text-align: center;
+        padding-left: 0;
+    }
+    .us__text{
+        max-width: 330px;
+        font-size: 15px;
+        line-height: 25px;
+        display: inline-block;      
+    }
+    // .coff__btn:active{
+    //     .coff__item{
+    //         display: inline-block;
+    //         flex-wrap: wrap;
+    //     }
+    // }
+}
+@media screen and (max-width:355px) {
+    .us__img-block{
+        background-image: url(../../img/mobilesec1.png);
+    }
+    .us__text{
+        max-width: 279px;
+        font-size: 15px;
+        line-height: 25px;
+        
+    }
+}
